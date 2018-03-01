@@ -10,7 +10,7 @@ Then, editing `Rainmeter.ini` controls how this is displayed.  Here's an example
 [rainmeter-compact\Mega]
 Active=1
 WindowX=1%R
-WindowY=29%B
+WindowY=34%B
 AnchorX=0%R
 AnchorY=0%B
 AlphaValue=200
