@@ -21,3 +21,13 @@ KeepOnScreen=1
 AlwaysOnTop=2
 HideOnMouseOver=1
 ```
+
+### Top Proc Glitches
+
+Showing the Top Proc currently uses the (depreciated) AdvancedCPU plugin.  As noted in its [docs](https://docs.rainmeter.net/manual/plugins/deprecated/advancedcpu/), it's possible for the Windows database of "counters" to get corrupted.  If so, you need to run these commands (as an admin) and restart Rainmeter:
+```
+cd c:\windows\system32
+lodctr /R
+cd c:\windows\sysWOW64
+lodctr /R
+```
